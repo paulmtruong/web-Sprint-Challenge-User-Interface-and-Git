@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML is used to more recognizably define what the code will do. For example <section>, by reading this code you can come to the conclusion that it is used to make sections in HTML.  
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. block will start on a new line while inline will not. Block will also take up all the width available while inline will only use the amount of width needed. 
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? The four areas are content, padding, border, margin. 
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? This will center the element(s) on the cross axis, whereas justify-content aligns element(s) on the main axis. 
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. Git is valuable because it allows multiple developers to work on the same project at the same time via branching without having to worry about any mistakes being added to the main code branch. With pull request it also allows developers to view the changes made over time to a project and also revert back to one if there is an issue with the main branch. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
