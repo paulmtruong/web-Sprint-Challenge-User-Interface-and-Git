@@ -276,39 +276,6 @@ nav{
     height: fit-content;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 button{
     background-color: white;
     
@@ -318,7 +285,7 @@ button{
     background-color: white;
     border: 2px solid;
     color: black;
-    padding: 15px 10px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -327,6 +294,75 @@ button{
   }
   .button {border-radius: 8px;}
   
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.one .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.two .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.three .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-bottom: 1px;
+}
+
+.four .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+.work{
+    display:flex;
+    justify-content: flex-end;
+}
+
   .one{
     display: flex;
   }
@@ -343,7 +379,21 @@ button{
     flex-wrap: nowrap;
   }
   
-  .four{
+  /* .four{
     display: flex;
     justify-content: space-around;
-  }
+  } */
+
+  /* .image{
+    display:flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+} */
+
+.image {
+    display:flex;
+    padding: 15px 0;
+
+}
